@@ -12,7 +12,7 @@ async def start(c, m):
 
     # start text
     text = f"""Hey! {m.from_user.mention(style='md')},
-💡 ** Hi This Is Maintained By @Harshith_Mutyala Iam Stylish Font RoBoT**
+💡 ** Hi This Is @Harshith_Mutyala Iam Stylish Font RoBoT**
 `I can help you to get stylish fonts. Just send me some text and see magic.`
 **👲 Maintained By:** {owner.mention(style='md')}
 """
@@ -20,7 +20,7 @@ async def start(c, m):
     # Buttons
     buttons = [
         [
-            InlineKeyboardButton('My Father 👨‍✈️', url=f"https://t.me/{owner_username}")
+            InlineKeyboardButton('My Lover love 💕', url=f"https://t.me/Harshith_Mutyala")
         ]
     ]
     await m.reply_text(

@@ -8,19 +8,19 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 @Client.on_message(filters.command('start'))
 async def start(c, m):
     owner = await c.get_users(int(Config.OWNER_ID))
-    owner_username = owner.username if owner.username else 'Harshith_Mutyala'
+    owner_username = owner.username if owner.username else 'MutyalaHarshith'
 
     # start text
     text = f"""Hey! {m.from_user.mention(style='md')},
-💡 ** Hi This Is @Harshith_Mutyala Iam Stylish Font RoBoT**
+💡 ** Hi This Is Iam Stylish Font RoBoT**
 `I can help you to get stylish fonts. Just send me some text and see magic.`
-**👲 Maintained By:** {owner.mention(style='md')}
+**👲 Maintained By:** @MutyalaHarshith
 """
 
     # Buttons
     buttons = [
         [
-            InlineKeyboardButton('My Lover love 💕', url=f"https://t.me/Harshith_Mutyala")
+            InlineKeyboardButton('source', url=f"https://youtu.be/J3_LnYhvw94")
         ]
     ]
     await m.reply_text(

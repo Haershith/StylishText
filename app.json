@@ -1,14 +1,14 @@
 {
-  "name": "StylishText",
-  "description": "Telegram bot helps to get Stylish Text. Create your Fork now.",
+  "name": "Harshith Stylish Text",
+  "description": "Telegram bot helps to get Stylish Text. Create your Fork now and Deploy it.",
   "keywords": [
     "telegram",
     "best",
     "StylishText"
   ],
-  "logo": "https://telegra.ph/file/a50db369c1dad6c88b011.jpg",
-  "success_url": "https://telegram.dog/Harshith_Stylish_TBoT",
-  "website": "https://github.com/MutyalaHarshith/StylishText",
+  "logo": "https://telegra.ph/file/236794ce4bb2213eaae1e.jpg",
+  "success_url": "https://github.com/MutyalaHarshith/StylishText",
+  "website": "https://t.me/MutyalaHarshith",
   "repository": "https://github.com/MutyalaHarshith/StylishText",
   "env": {
     "WEBHOOK": {
@@ -17,19 +17,19 @@
     },
     "BOT_TOKEN": {
       "description": "Your bot token, as a string.",
-      "value": ""
+      "value": "1234567890"
     },
     "API_ID": {
       "description": "Get this value from https://my.telegram.org",
-      "value": ""
+      "value": "12345"
     },
     "OWNER_ID": {
       "description": "give your telegram user id here",
-      "value": ""
+      "value": "123456789"
     },
     "API_HASH": {
       "description": "Get this value from https://my.telegram.org",
-      "value": ""
+      "value": "aboycandoeverythigforgirl#harshith"
     }
   },
   "addons": [

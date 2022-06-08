@@ -11,10 +11,10 @@ async def start(c, m):
     owner_username = owner.username if owner.username else 'MutyalaHarshith'
 
     # start text
-    text = f"""Hey! {m.from_user.mention(style='md')},
-💡 ** Hi This Is Iam Stylish Font RoBoT**
-`I can help you to get stylish fonts. Just send me some text and see magic.`
-**👲 Maintained By:** @MutyalaHarshith
+    text = f"""𝙷𝚎𝚢! {m.from_user.mention(style='md')} ,
+💡 ** 𝙷𝚒 𝚃𝚑𝚒𝚜 𝙽𝚘𝚛𝚖𝚊𝚕 𝙸𝚊𝚖 𝙽𝚘𝚛𝚖𝚊𝚕 𝚂𝚝𝚢𝚕𝚒𝚜𝚑 𝚃𝚎𝚡𝚝 𝙶𝚎𝚗𝚎𝚛𝚊𝚝𝚘𝚛 𝙱𝚘𝚃 𝙲𝚛𝚎𝚊𝚝𝚎𝚍 𝙱𝚢 𝙷𝚊𝚛𝚜𝚑𝚒𝚝𝚑 🥳🥳**
+`❤️‍🔥❤️‍🔥  𝙸 𝚌𝚊𝚗 𝚑𝚎𝚕𝚙 𝚢𝚘𝚞 𝚝𝚘 𝚐𝚎𝚝 𝚜𝚝𝚢𝚕𝚒𝚜𝚑 𝚏𝚘𝚗𝚝𝚜. 𝙹𝚞𝚜𝚝 𝚜𝚎𝚗𝚍 𝚖𝚎 𝚜𝚘𝚖𝚎 𝚝𝚎𝚡𝚝 𝚕𝚒𝚔𝚎 /𝙼𝙷𝙵𝚘𝚗𝚝 𝙼𝚞𝚝𝚢𝚊𝚕𝚊𝙷𝚊𝚛𝚜𝚑𝚒𝚝𝚑 𝚊𝚗𝚍 𝚂𝚎𝚎 𝙼𝚊𝚐𝚒𝚌 ✨✨.`
+**🔗 𝚂𝚞𝚙𝚙𝚘𝚛𝚝 𝙶𝚛𝚘𝚞𝚙 :** @MHGcHaT
 """
 
     # Buttons

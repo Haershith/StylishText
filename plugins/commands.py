@@ -28,7 +28,29 @@ async def start(c, m):
         reply_markup=InlineKeyboardMarkup(buttons)
     )
 
+@Client.on_message(filters.private & filters.command("info"))
+async def info(bot, update):
+    
+    text = f"""--**Information From @MutyalaHarshith**--
+**📛 First Name :** {update.from_user.first_name}
+**📛 Your Second Name :** {update.from_user.last_name if update.from_user.last_name else 'None'}
+** 💞 Your Username :** {update.from_user.username}
+**🆔 Your Telegram ID :** {update.from_user.id}
+**🔗 Your Profile Link :** {update.from_user.mention}"""
+    
+    await update.reply_text(        
+        text=text,
+        disable_web_page_preview=True,
+        reply_markup=BUTTONS
+    )
 
+@Bot.on_message(filters.private & filters.command("id"))
+async def id(bot, update):
+    await update.reply_text(        
+        text=f"**🆔 Your Telegram ID :** {update.from_user.id}",
+        disable_web_page_preview=True,
+        reply_markup=BUTTONS
+    )
 
 @Client.on_message(filters.private & filters.command(["mhfont"]))
 async def style_buttons(c, m, cb=False):

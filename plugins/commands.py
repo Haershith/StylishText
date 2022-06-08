@@ -30,7 +30,7 @@ async def start(c, m):
 
 
 
-@Client.on_message(filters.private & filters.incoming & filters.text)
+@Client.on_message(filters.private & filters.command(["mhfont"]))
 async def style_buttons(c, m, cb=False):
     buttons = [[
         InlineKeyboardButton('𝚃𝚢𝚙𝚎𝚠𝚛𝚒𝚝𝚎𝚛', callback_data='style+typewriter'),
